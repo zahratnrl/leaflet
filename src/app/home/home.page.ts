@@ -43,7 +43,7 @@ export class HomePage {
   // Pilihan base map
   const baseMaps = {
     'OpenStreetMap': openStreetMap,
-    
+    "OneMapSG.Default": openStreetMap,
     'Topo Map': L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://opentopomap.org/about" target="_blank"OpenTopoMap</a> contributors',
     }),
